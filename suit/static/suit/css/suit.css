@@ -9225,13 +9225,13 @@ body.dashboard #content .content-wrap {
     right: 0;
     bottom: 0;
     width: 100%;
-    min-height: 66px;
+    /* min-height: 66px; */
     margin-top: -66px;
   }
 }
 /* Styles */
 .footer {
-  min-height: 66px;
+  /* min-height: 66px; */
   background-color: #e4e4e4;
   color: #6c757d;
   font-size: 0.929rem;
