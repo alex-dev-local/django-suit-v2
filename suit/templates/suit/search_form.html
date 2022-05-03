@@ -24,7 +24,7 @@
                     <input type="text" size="40" name="{{ search_var }}" value="{{ cl.query }}" id="searchbar" autofocus/>
 
                     {% if cl.has_filters %}
-                        {% for spec in cl.filter_specs|suit_list_filter_horizontal:cl %}
+                        {% for spec in cl.filter_specs%}
                             {% suit_admin_list_filter cl spec %}
                         {% endfor %}
                     {% endif %}
